@@ -1,26 +1,26 @@
 class Skillsync < Formula
   desc "Sync skills from Git repositories to 14+ AI coding tools"
   homepage "https://github.com/AlfonsSkills/SkillSync"
-  version "0.11.0"
+  version "0.11.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.0/skillsync-darwin-arm64"
-      sha256 "96fa268ac7322a87ed2d12b64e6b6e3df63f080b2678eb89e3eacdebb05064d4"
+      url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.1/skillsync-darwin-arm64"
+      sha256 "f569412aa7b8f93594d80db56a0247aa24401920598d2c4d2bf83bd2863b7e98"
     else
-      url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.0/skillsync-darwin-amd64"
-      sha256 "60db256688bb42008106f4cfc074d370b36fbd8fc6a60eceee7b1c538291825a"
+      url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.1/skillsync-darwin-amd64"
+      sha256 "ed7e98209cfced41de71f1bcdf7b44b2247f4764e7c3b80c61c5d1d9bd8634b0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.0/skillsync-linux-arm64"
-      sha256 "3b3b7c17a9123d14ee36dbad81f470fdf5252143fbfa1bffe75389e18f7b6dd3"
+      url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.1/skillsync-linux-arm64"
+      sha256 "6024a6acd14f1a3bca9924adcfb71dcfc7ad3b1d35ca9b04aff60325ef369765"
     else
-      url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.0/skillsync-linux-amd64"
-      sha256 "f6d7926774e23b032f86b2e4a9ed1d8c201754fe4f391d2faae5e517c80d1a8d"
+      url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.1/skillsync-linux-amd64"
+      sha256 "f5b91a8a7f8c1200fbcc9d0e31ac20a189f10c3b49304217b2bd28eab0093917"
     end
   end
 
