@@ -7,20 +7,20 @@ class Skillsync < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.1/skillsync-darwin-arm64"
-      sha256 "f569412aa7b8f93594d80db56a0247aa24401920598d2c4d2bf83bd2863b7e98"
+      sha256 "3efa94bc0bab5caed9d5e9d896bf4075cf8aa97926e591669ae8aefb98b42310"
     else
       url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.1/skillsync-darwin-amd64"
-      sha256 "ed7e98209cfced41de71f1bcdf7b44b2247f4764e7c3b80c61c5d1d9bd8634b0"
+      sha256 "8a1d1828925222e2c0630d57ae13cb09ef8dc004eb76348e7f0fb13507bed18e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.1/skillsync-linux-arm64"
-      sha256 "6024a6acd14f1a3bca9924adcfb71dcfc7ad3b1d35ca9b04aff60325ef369765"
+      sha256 "ed524dbed5fc4e2d8147c97c188de301b6543a2998dd6fe6db42a6794d012d94"
     else
       url "https://github.com/AlfonsSkills/SkillSync/releases/download/v0.11.1/skillsync-linux-amd64"
-      sha256 "f5b91a8a7f8c1200fbcc9d0e31ac20a189f10c3b49304217b2bd28eab0093917"
+      sha256 "656f2ace8db92ec2d2f92fec33bd3399208808357d706fbb8565a172513df65c"
     end
   end
 
